@@ -11,3 +11,15 @@ table! {
         nullable_i8 -> Nullable<Int8>,
     }
 }
+
+//table! {
+//    test_table (id) {
+//        id -> Uuid,
+//        i2 -> Int8,
+//        i4 -> Int8,
+//        i8 -> Int8,
+//        nullable_i2 -> Nullable<Int8>,
+//        nullable_i4 -> Nullable<Int8>,
+//        nullable_i8 -> Nullable<Int8>,
+//    }
+//}
