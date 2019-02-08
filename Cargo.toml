@@ -1,0 +1,9 @@
+[package]
+name = "test_cockroach_diesel"
+version = "0.1.0"
+authors = ["Matthieu Guillemot <matthieu@telco.in>"]
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1.4.0", features = ["postgres", "r2d2", "uuid"] }
+uuid = ">=0.2.0, <0.7.0"
